@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.shift_btn {
+  background-color: #1975FF;
+  color: white;
+}
+
+.text-field {
+  color: red;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.slide-in {
+  transform: translateX(0);
+}
+
+.phone-input {
+  transform: translateX(-100%);
+  display: none;
+}
+
+.code-input {
+  transform: translateX(100%);
+}
